@@ -55,8 +55,9 @@ Oral cytology · multiple-instance learning · multimodal fusion · uncertainty 
 | Project | What it's about | Explore |
 |:--|:--|:--|
 | **Physics-Aware Modulo CT** | M.Tech thesis: learning to unwrap modulo sinograms while respecting CT acquisition and reconstruction physics. | [Research overview](https://rmkjee1510.github.io/research.html) |
-| **RAA-MIL · Oral Cytology** | Region-affinity attention and weak supervision for patient-level cytology whole-slide classification. | [Paper](https://arxiv.org/abs/2511.12269) · [Collaborative repo](https://github.com/soujo/RAA-MIL) |
+| **RAA-MIL · Oral Cytology** | Region-affinity attention and weak supervision for patient-level cytology whole-slide classification. | [Paper](https://arxiv.org/abs/2511.12269) · [Repository](https://github.com/soujo/RAA-MIL) |
 | **Uncertainty-Aware Multimodal Fusion** | Combining complementary image information for oral lesion classification with uncertainty awareness. | [Paper](https://arxiv.org/abs/2511.12268) |
+| **OraRefer · Oral Cancer Screening** | Segmentation-guided multi-photograph fusion and calibrated patient-level referral for oral cancer screening. | [Repository](https://github.com/ZenAesthete/OraRefer) |
 | **Pancreatic Cancer Classification** | Machine learning for pancreatic cancer prediction using urinary biomarker data. | [Code](https://github.com/rmkjee1510/ML_for_PDAC_Classification) |
 
 ### `> cat publications.md`
@@ -64,12 +65,17 @@ Oral cytology · multiple-instance learning · multimodal fusion · uncertainty 
 **2026 · IEEE ISBI**  
 **RAA-MIL: A Novel Framework for Classification of Oral Cytology**  
 *R. Mukherjee, R. Daniel, S. Hazra, S. Dasgupta, S. Mandal*  
-[Read preprint](https://arxiv.org/abs/2511.12269) · [Research project](https://github.com/soujo/RAA-MIL)
+[Read preprint](https://arxiv.org/abs/2511.12269) · [GitHub repository](https://github.com/soujo/RAA-MIL)
 
 **2026 · MICCAI MultiTab Workshop**  
 **Uncertainty-Aware Multimodal Fusion for Oral Lesion Classification**  
 *S. Hazra, R. Mukherjee, R. Daniel, S. Dasgupta, S. Mandal*  
 [Read preprint](https://arxiv.org/abs/2511.12268)
+
+**2026 · Research manuscript**  
+**OraRefer: Segmentation-Guided Multi-Photograph Fusion for Oral Cancer Screening with Guaranteed Patient-Level Sensitivity**  
+*R. Mukherjee, M. Singh, S. Dasgupta, S. Mandal*  
+[GitHub repository](https://github.com/ZenAesthete/OraRefer) · Paper link forthcoming
 
 **Preprint**  
 **Multimodal RGB-HSI Feature Fusion with Patient-Aware Incremental Heuristic Meta-Learning for Oral Lesion Classification**  
