@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Rupam Mukherjee — Medical Image Computing</title>
+  <desc id="desc">Midnight blue academic research banner with cyan and indigo geometry evoking MRI Fourier-space and computed tomography sinograms.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081120"/>
+      <stop offset="0.55" stop-color="#0A1C30"/>
+      <stop offset="1" stop-color="#0B2342"/>
+    </linearGradient>
+    <linearGradient id="bright" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#71E8E3"/>
+      <stop offset="0.52" stop-color="#6AB4FF"/>
+      <stop offset="1" stop-color="#B29BFF"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#2CDAD2" stop-opacity=".21"/>
+      <stop offset=".55" stop-color="#2687D5" stop-opacity=".11"/>
+      <stop offset="1" stop-color="#0D1630" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#8DAAC6" opacity=".17"/>
+    </pattern>
+    <clipPath id="rounded">
+      <rect width="1200" height="320" rx="24"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#rounded)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect x="660" width="540" height="320" fill="url(#dots)"/>
+    <circle cx="990" cy="152" r="253" fill="url(#halo)"/>
+    <path d="M0 287 C240 272 260 307 475 291 S870 275 1200 289" stroke="#2FE0D6" opacity=".17" fill="none" stroke-width="2"/>
+    <path d="M0 296 C260 284 360 316 535 298 S945 290 1200 307" stroke="#7B9BF7" opacity=".15" fill="none" stroke-width="1.5"/>
+    <rect x="58" y="42" width="4" height="237" rx="2" fill="url(#bright)"/>
+    <text x="84" y="64" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" letter-spacing="3.5" fill="#7FE0DC" font-weight="bold">RESEARCH  /  CODE  /  CLINICAL IMPACT</text>
+    <text x="83" y="139" font-family="DejaVu Sans, Arial, sans-serif" font-size="51" letter-spacing="-1.3" font-weight="bold" fill="#F6FBFF">Rupam Mukherjee</text>
+    <rect x="85" y="160" width="94" height="3" rx="1.5" fill="url(#bright)"/>
+    <text x="83" y="198" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="500" fill="#B9D8EE">Medical Image Computing  <tspan fill="#64D8DC">·</tspan>  Inverse Problems</text>
+    <text x="84" y="233" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" fill="#91B3CE">Physics-aware AI  /  MRI &amp; CT reconstruction  /  Computational pathology</text>
+    <text x="84" y="269" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" letter-spacing="1.6" fill="#698DAE">IIT KHARAGPUR  •  INDIA</text>
+    <!-- Tomography-inspired concentric scan target -->
+    <g transform="translate(994 154)" fill="none">
+      <circle r="119" stroke="#63D8DD" stroke-width="1" stroke-opacity=".13"/>
+      <circle r="105" stroke="#9FA6FF" stroke-width="1.5" stroke-opacity=".30" stroke-dasharray="4 9"/>
+      <circle r="85" stroke="#6EC9E6" stroke-opacity=".57" stroke-width="1.1"/>
+      <circle r="62" stroke="#70F0E2" stroke-opacity=".27" stroke-width="1"/>
+      <circle r="39" stroke="#73EBDD" stroke-opacity=".50" stroke-width="1.2"/>
+      <circle r="8" fill="#70F0E2" fill-opacity=".7" stroke="#98FFF6" stroke-opacity=".5"/>
+      <path d="M-143 0 H143 M0 -143 V143" stroke="#7EC1EC" stroke-opacity=".16" stroke-width="1"/>
+      <path d="M-112 -112 L112 112 M-112 112 L112 -112" stroke="#7EC1EC" stroke-opacity=".11" stroke-width="1"/>
+      <g stroke="#66E4DA" stroke-width="1.3" opacity=".56">
+        <path d="M-85 0 C-55 -58 -20 58 12 0 S75 -52 85 0"/>
+        <path d="M-85 -14 C-52 40 -28 -42 8 -12 S62 34 85 -14" opacity=".55"/>
+        <path d="M-81 29 C-50 -14 -23 59 12 18 S66 -6 81 29" opacity=".35"/>
+      </g>
+      <g fill="#9FECF1">
+        <circle cx="-85" cy="0" r="3" opacity=".8"/>
+        <circle cx="60" cy="-59" r="3.3" opacity=".9"/>
+        <circle cx="49" cy="69" r="2.8" opacity=".6"/>
+        <circle cx="-76" cy="-45" r="2.3" opacity=".68"/>
+      </g>
+      <!-- tiny acquisition trajectories -->
+      <g stroke="#B29BFF" stroke-opacity=".55" stroke-width="1" transform="rotate(-23)">
+        <line x1="-101" y1="-21" x2="101" y2="-21"/>
+        <line x1="-101" y1="21" x2="101" y2="21"/>
+      </g>
+      <path d="M85 -87 A122 122 0 0 1 128 24" stroke="url(#bright)" stroke-width="4" stroke-linecap="round"/>
+      <path d="M-95 73 A122 122 0 0 1 -119 -29" stroke="#85A6FF" stroke-opacity=".72" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <g font-family="DejaVu Sans, Arial, sans-serif" font-size="11.5" letter-spacing="1.2" fill="#74A4C8" opacity=".8">
+      <text x="1121" y="45" text-anchor="end">K-SPACE</text>
+      <text x="1133" y="289" text-anchor="end">RECON / AI</text>
+    </g>
+  </g>
+</svg>
